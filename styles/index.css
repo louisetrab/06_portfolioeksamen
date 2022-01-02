@@ -4,7 +4,7 @@
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 html {
@@ -19,7 +19,14 @@ body {
   background-size: auto 100%;
   background-position: 5% 130px;
   background-attachment: fixed;
-  background-color: #dbc7af;
+  /* background-color: #dbc7af; */
+}
+
+@font-face {
+  font-family: dagger;
+  src: url("fonts/daggersquare-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .logo {
@@ -31,10 +38,10 @@ body {
   -webkit-background-clip: text;
 }
 
-ul {
+/* ul {
   list-style: none;
   padding: 0;
-}
+} */
 
 a {
   text-decoration: none;
@@ -42,6 +49,7 @@ a {
 }
 
 /*---------- Header ----------*/
+
 .banner {
   display: flex;
   flex-wrap: wrap;
@@ -49,6 +57,7 @@ a {
   justify-content: space-between;
   gap: 1rem 3rem;
   padding: 2rem;
+  /* background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0); */
 }
 
 nav {
@@ -75,6 +84,8 @@ nav a {
   border-radius: 6px;
   padding-block: 1rem;
   letter-spacing: 0.3px;
+  font-family: dagger;
+  -webkit-text-stroke: 0.5px olivedrab;
 }
 
 nav a:is(:hover, :focus) {
