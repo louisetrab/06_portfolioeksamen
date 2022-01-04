@@ -175,23 +175,23 @@ nav a:is(:hover, :focus) {
   background-color: #5c404c7e;
   /* padding: 0 10px 0 10px; */
 }
-#second_section img {
-  /* display: grid;
+/* #second_section img { */
+/* display: grid;
   grid-column: 1 / 2;
   grid-row: 1 /3; */
-  /* width: 70%; */
-  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
-}
-#second_section .section_wrapper h2 {
-  /* display: grid;
+/* width: 70%; */
+/* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+/* } */
+/* #second_section .section_wrapper h2 { */
+/* display: grid;
   grid-column: 2 / 3;
   grid-row: 1; */
-}
-#second_section .section_wrapper p {
-  /* display: grid;
+/* } */
+/* #second_section .section_wrapper p { */
+/* display: grid;
   grid-column: 2 / 3;
-  grid-row: 2; */
-}
+  /* grid-row: 2; */
+/* } */
 
 /*=========== third section =================*/
 #third_section {
@@ -273,19 +273,6 @@ nav a:is(:hover, :focus) {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
-}
-#italic {
-  font-style: italic;
-}
-.vennerlinks {
-  grid-column: 2;
-  margin: auto;
-  grid-row: 2;
-}
-#friends {
-  width: 60%;
-  padding-left: 20%;
-  padding-bottom: 5%;
 }
 
 /*---------- Desktop version ----------*/
@@ -389,7 +376,6 @@ nav a:is(:hover, :focus) {
     display: grid;
     grid-template-columns: 1fr 0.5 1fr;
     grid-template-rows: 1fr, 2fr;
-    background-color: #5c404c7e;
     padding: 0 10px 0 10px;
   }
   #fourth_section img {
@@ -419,7 +405,6 @@ nav a:is(:hover, :focus) {
     display: grid;
     grid-template-columns: 1fr 0.5 1fr;
     grid-template-rows: 1fr, 1fr;
-    background-color: rgba(216, 194, 168, 0.733);
     padding: 0 10px 0 10px;
     gap: 4%;
   }
