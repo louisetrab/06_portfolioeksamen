@@ -20,9 +20,9 @@ a {
   text-decoration: none;
   color: #000;
 }
-
 main {
-  background-image: linear-gradient(to bottom left, #1d2f43, #fff, #c0c0c0);
+  /* background-image: linear-gradient(to bottom left, #1d2f43, #fff, #c0c0c0); */
+  background-image: linear-gradient(to bottom left, black, #fff, #c0c0c0);
 }
 
 body {
@@ -42,47 +42,10 @@ body {
 }
 
 /*=========== mobile version =============*/
-/*=========== burger menu =============*/
-
-@media (max-width: 600px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    width: 44px;
-    height: 44px;
-    padding: 0.25rem;
-    cursor: pointer;
-  }
-
-  nav {
-    display: none;
-  }
-
-  nav.shown {
-    border-top: 1px solid #000;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
-  }
-
-  nav ul {
-    display: flex;
-    flex-flow: column;
-  }
-}
-
-@media (max-width: 599px) {
-  button.toggle-btn + ul {
-    display: none;
-  }
-}
-
 /*=========== nav =============*/
 .logo {
-  font-size: 1.4rem;
-  font-weight: 900;
+  /* font-size: 1.4rem;
+  font-weight: 900; */
   text-decoration: none;
   background: linear-gradient(45deg, blue, pink);
   -webkit-text-fill-color: transparent;
@@ -103,11 +66,6 @@ body {
 nav {
   display: contents;
 }
-
-/* ul {
-  list-style: none;
-  padding: 0;
-} */
 
 nav ul {
   display: flex;
@@ -136,31 +94,17 @@ nav a {
 
 /*---------- when hovering over nav links ----------*/
 nav a:is(:hover, :focus) {
-  background: #0006;
+  background: hsl(208, 100%, 97%, 0.6);
   text-decoration: none;
 }
 
 /*=========== first section =============*/
 #first_section {
-  /* display: grid;
-  grid-template-rows: 1fr auto auto 1fr 1fr;
-  grid-column: 1/4; */
-  /*width: 100%;
-  height: 100vh; */
-  background-image: url(/images/Asset_4.png);
-  /* background-repeat: no-repeat; */
-  /* background-position: left; */
-  /* height: 100vh; */
-  /* background-size: cover; */
-  /* background-position: 23%; */
-  display: grid;
-  grid-template-rows: 1fr auto auto 1fr 1fr;
-  grid-column: 1/4;
-  width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: 25%;
+  background-position: 40%;
   background-repeat: no-repeat;
+  background-image: url(/images/splash_flower.webp);
 }
 
 /*=========== second section =============*/
@@ -275,10 +219,49 @@ nav a:is(:hover, :focus) {
   text-align: center;
 }
 
+/*---------- Burger menu ----------*/
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 599px) {
+  button.toggle-btn + ul {
+    display: none;
+  }
+}
+
 /*---------- Desktop version ----------*/
 @media (min-width: 600px) {
   .banner {
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   nav,
@@ -302,8 +285,14 @@ nav a:is(:hover, :focus) {
 
   /*=========== first section =================*/
   #first_section {
-    background-size: 55% 100%;
-    background-image: url(/images/Asset_2.png);
+    background-size: 90% 100% 80%;
+    background-image: url(/images/splash_flower.webp);
+  }
+
+  .left_button {
+    position: absolute;
+    right: 10px;
+    top: 150px;
   }
 
   /*=========== second section =================*/
