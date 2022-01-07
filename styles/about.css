@@ -1,0 +1,142 @@
+.banner {
+  background-color: black;
+}
+
+h2 {
+  font-size: var(--space-xl);
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+#first_section1 {
+  /* width: 100%; */
+  background-image: url(/images/aboutme1.png);
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  #first_section1 {
+    height: 100vh;
+    background-position: 5%;
+  }
+}
+
+/* -------- second_section ----------- */
+#second_ommig ul li {
+  color: var(--color6);
+  font-family: degular, sans-serif;
+}
+#second_ommig h2 {
+  margin-top: var(--space-sm);
+}
+#second_ommig h3 {
+  margin-top: var(--space-sm);
+}
+/* -------- TILBAGE KNAP ----------- */
+/* #tilbage_knap a {
+  margin: var(--space-sm);
+} */
+/* #tilbage_knap .section_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+/* .svg_element {
+  grid-column: 2/4;
+} */
+/* .txt_element {
+  grid-column: 1/4;
+  text-align: center;
+  margin-bottom: var(--space-md);
+} */
+/* @media (max-width: 600px) {
+  .section_wrapper {
+    margin: var(--space-sm);
+  }
+} */
+@media (min-width: 600px) {
+  /* ------ FIRST SECTION ------- */
+  #first_section1 {
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
+  }
+
+  /* ------ SECOND SECTION ------- */
+  #second_section1 {
+    padding-top: 5%;
+    background-image: linear-gradient(to bottom right, black, #fff, #c0c0c0);
+    color: black;
+  }
+
+  #second_section1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .col_narrow {
+    /* grid-column: 2/4;
+    grid-row: 1/3; */
+    top: 5%;
+    left: 67%;
+    width: 90%;
+    position: sticky;
+    /* position: -webkit-sticky; */
+    /* width: 100px; */
+    height: 430px;
+    /* top: 70px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    box-shadow: 0 0 6px #000;
+  }
+
+  #second_section1 h2 {
+    font-size: 9rem;
+  }
+
+  #second_section1 h3 {
+    font-size: 1.5rem;
+  }
+
+  #second_section1 p {
+    font-size: 1.6rem;
+  }
+
+  /* ------ THIRD SECTION ------- */
+  #third_section1 {
+    padding-top: 5%;
+    /* background-color: #1a005e; */
+    /* background-image: linear-gradient(
+      315deg,
+      rgba(230, 164, 144, 0),
+      rgba(230, 164, 144, 0.2)
+    ); */
+    /* color: #e6a490; */
+  }
+
+  #third_section1 hr {
+    width: 50%;
+  }
+
+  /* #third_section1 .section_wrapper {
+    display: grid;
+    width: 100%;
+    background-image: url(/images/splash_flower.webp);
+    background-size: cover;
+    background-position: 50%;
+  } */
+
+  #third_section1 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  #third_section1 .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
