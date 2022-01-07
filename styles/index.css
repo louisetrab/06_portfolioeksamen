@@ -144,7 +144,7 @@
 @media (min-width: 600px) {
   #first_section {
     background-size: 90%, 100%, 80%;
-    background-image: url(images/splash_flower.webp);
+    background-image: url(/images/splash_flower.webp);
   }
 
   /* .left_button {
