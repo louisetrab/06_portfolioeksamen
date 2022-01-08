@@ -2,9 +2,6 @@
   background-color: black;
 }
 
-h2 {
-  font-size: var(--space-xl);
-}
 h3 {
   font-size: 1.2rem;
 }
@@ -23,16 +20,7 @@ h3 {
 }
 
 /* -------- second_section ----------- */
-#second_ommig ul li {
-  color: var(--color6);
-  font-family: degular, sans-serif;
-}
-#second_ommig h2 {
-  margin-top: var(--space-sm);
-}
-#second_ommig h3 {
-  margin-top: var(--space-sm);
-}
+
 /* -------- TILBAGE KNAP ----------- */
 /* #tilbage_knap a {
   margin: var(--space-sm);
@@ -94,7 +82,7 @@ h3 {
   }
 
   #second_section1 h2 {
-    font-size: 9rem;
+    font-size: 8rem;
   }
 
   #second_section1 h3 {
