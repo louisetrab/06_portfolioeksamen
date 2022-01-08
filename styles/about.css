@@ -10,7 +10,7 @@ h3 {
 }
 
 #first_section1 {
-  /* width: 100%; */
+  width: 100%;
   background-image: url(/aboutme1.png);
   background-size: cover;
 }
