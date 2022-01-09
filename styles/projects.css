@@ -1,0 +1,118 @@
+.banner {
+  background-color: #61205c;
+}
+
+h1 {
+  color: white;
+}
+
+.img1 h3 {
+  border: 3px solid black;
+  border-radius: 7px;
+}
+
+#first_project {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/louise_ocsvari_splashbillede.webp);
+  background-size: cover;
+}
+
+@media (max-width: 600px) {
+  #first_project {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr 1fr 1fr;
+    grid-column: 1/4;
+    background-position: 25%;
+  }
+
+  h1 {
+    grid-column: 1;
+    grid-row: 4;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 600px) {
+  #first_project {
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr auto auto 1fr 1fr;
+  }
+
+  h1 {
+    font-size: 8rem;
+    grid-column: 1;
+    grid-row: 4;
+    padding-left: 2rem;
+  }
+
+  #second_project {
+    padding-top: 5%;
+  }
+
+  .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+  }
+
+  .img1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .headline1 {
+    /* grid-column: 1;
+    grid-row: 1/2; */
+    place-content: end center;
+    border: 2px solid black;
+    height: 10%;
+  }
+
+  .img2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .test {
+    display: grid;
+    /* grid-column: 2;
+    grid-row: 1/2; */
+    /* border: 2px solid black;
+    height: 10%; */
+  }
+
+  .test h3 {
+    place-content: end center;
+  }
+
+  .img3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .headline3 {
+    grid-column: 1;
+    grid-row: 2/3;
+    border: 2px solid black;
+    height: 10%;
+  }
+
+  .img4 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .headline4 {
+    grid-column: 2;
+    grid-row: 2/3;
+    border: 2px solid black;
+    height: 10%;
+  }
+}
