@@ -18,8 +18,9 @@ html {
 /*---------- all links ----------*/
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
+
 /* main { */
 /* background-image: linear-gradient(to bottom left, #1d2f43, #fff, #c0c0c0); */
 /* background-image: linear-gradient(to bottom left, black, #fff, #c0c0c0);
@@ -42,6 +43,23 @@ body {
   font-style: normal;
 }
 
+/*=========== footer =============*/
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer_bestilling {
+  grid-column: 2;
+  text-align: center;
+}
+
+footer a {
+  color: #000;
+}
+
 /*=========== mobile version =============*/
 /*=========== nav =============*/
 /*---------- header ----------*/
@@ -51,7 +69,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1rem 3rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 nav {
@@ -75,12 +93,12 @@ nav li {
 nav a {
   margin-inline: -1rem;
   padding-inline: 1rem;
-  font-weight: 600;
   border-radius: 6px;
   padding-block: 1rem;
   letter-spacing: 0.3px;
-  font-family: dagger;
-  -webkit-text-stroke: 0.5px olivedrab;
+  font-family: calli;
+  -webkit-text-stroke: 0.5px pink;
+  font-size: 1.1rem;
 }
 
 /*---------- when hovering over nav links ----------*/
@@ -97,6 +115,10 @@ nav a:is(:hover, :focus) {
   #logo_small {
     font-family: calli;
     font-size: 2rem;
+  }
+
+  nav a:is(:hover, :focus) {
+    width: 40%;
   }
 }
 
@@ -156,7 +178,7 @@ nav a:is(:hover, :focus) {
     flex: 1;
   }
 
-  nav li:is(:nth-child(1), :nth-child(2)) {
+  nav li:is(:nth-child(2), :nth-child(2)) {
     order: -1;
   }
 
@@ -166,5 +188,9 @@ nav a:is(:hover, :focus) {
 
   #logo_small {
     display: none;
+  }
+
+  nav a {
+    margin-inline: 5rem;
   }
 }
