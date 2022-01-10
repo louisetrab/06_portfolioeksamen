@@ -1,0 +1,199 @@
+/*=========== basics for all =============*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*---------- all images ----------*/
+img {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+  block-size: 100%;
+}
+
+/*---------- all links ----------*/
+a {
+  text-decoration: none;
+}
+
+#logo_small {
+  color: aliceblue;
+}
+
+/* main { */
+/* background-image: linear-gradient(to bottom left, #1d2f43, #fff, #c0c0c0); */
+/* background-image: linear-gradient(to bottom left, black, #fff, #c0c0c0);
+} */
+
+body {
+  /* background-image: url(/images/Artboard\ 13.png); 
+  background-repeat: no-repeat; */
+  background-size: auto 100%;
+  background-position: 5% 130px;
+  background-attachment: fixed;
+  /* background-color: #dbc7af; */
+}
+
+@font-face {
+  font-family: calli;
+  src: url("/fonts/webfontkit-20220107-070810/callihgrafreeregular-bwqkv-webfont.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*=========== footer =============*/
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.footer_bestilling {
+  grid-column: 2;
+  text-align: center;
+}
+
+footer a {
+  color: #000;
+}
+
+/*=========== mobile version =============*/
+/*=========== nav =============*/
+/*---------- header ----------*/
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 3rem;
+  padding: 1rem;
+}
+
+nav {
+  display: contents;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 100%;
+  gap: 0 2rem;
+  border-block-start: 2px solid #fff2;
+  padding-block-start: 1rem;
+}
+
+nav li {
+  display: grid;
+}
+
+/*---------- links i nav ----------*/
+nav a {
+  margin-inline: -1rem;
+  padding-inline: 1rem;
+  border-radius: 6px;
+  padding-block: 1rem;
+  letter-spacing: 0.3px;
+  font-family: calli;
+  -webkit-text-stroke: 0.5px pink;
+  font-size: 1.1rem;
+}
+
+/*---------- when hovering over nav links ----------*/
+nav a:is(:hover, :focus) {
+  background: hsl(208, 100%, 97%, 0.6);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  #logo_big {
+    display: none;
+  }
+
+  #logo_small {
+    font-family: calli;
+    font-size: 2rem;
+  }
+
+  nav a:is(:hover, :focus) {
+    width: 40%;
+  }
+}
+
+/*---------- Burger menu ----------*/
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media (max-width: 599px) {
+  button.toggle-btn + ul {
+    display: none;
+  }
+}
+
+/*---------- Desktop version ----------*/
+@media (min-width: 600px) {
+  .banner {
+    /* justify-content: center; */
+  }
+
+  nav,
+  nav ul {
+    display: contents;
+  }
+
+  .logo,
+  nav li {
+    text-align: center;
+    flex: 1;
+  }
+
+  nav li:is(:nth-child(2), :nth-child(2)) {
+    order: -1;
+  }
+
+  button {
+    display: none;
+  }
+
+  #logo_small {
+    display: none;
+  }
+
+  nav a {
+    margin-inline: 5rem;
+  }
+}
