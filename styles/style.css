@@ -18,7 +18,10 @@ html {
 /*---------- all links ----------*/
 a {
   text-decoration: none;
-  color: black;
+}
+
+#logo_small {
+  color: aliceblue;
 }
 
 /* main { */
