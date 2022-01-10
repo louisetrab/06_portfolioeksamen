@@ -3,6 +3,10 @@
   background-color: black;
 }
 
+body {
+  background-color: hsl(180, 25%, 25%, 0.6);
+}
+
 #first_tema3 {
   background-image: url(ux2.webp);
   background-size: cover;
