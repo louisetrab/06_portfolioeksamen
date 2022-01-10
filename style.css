@@ -40,8 +40,7 @@ body {
 
 @font-face {
   font-family: calli;
-  src: url("/fonts/webfontkit-20220107-070810/callihgrafreeregular-bwqkv-webfont.woff2")
-    format("woff2");
+  src: url("callihgrafreeregular-bwqkv-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
