@@ -1,3 +1,4 @@
+/*=========== common =================*/
 .banner {
   background-color: #61205c;
 }
@@ -19,6 +20,7 @@ h1 {
 }
 
 @media (max-width: 600px) {
+  /*=========== first section =================*/
   #first_project {
     display: grid;
     grid-template-rows: 1fr auto 1fr 1fr 1fr;
@@ -33,9 +35,85 @@ h1 {
     padding-top: 1rem;
     font-size: 6rem;
   }
+
+  /*=========== second section =================*/
+  #second_project {
+    padding-top: 5%;
+  }
+
+  .section_wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2%;
+  }
+
+  .img1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .headline1 {
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid black;
+    height: 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
+  }
+
+  .img2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .headline2 {
+    grid-column: 1;
+    grid-row: 2;
+    border: 2px solid black;
+    height: 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
+  }
+
+  .img3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .headline3 {
+    grid-column: 1;
+    grid-row: 3;
+    border: 2px solid black;
+    height: 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
+  }
+
+  .img4 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .headline4 {
+    grid-column: 1;
+    grid-row: 4;
+    border: 2px solid black;
+    height: 15%;
+    font-size: 1.8rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
+  }
+
+  .footer_bestilling {
+    padding-top: 60px;
+  }
 }
 
 @media (min-width: 600px) {
+  /*=========== first section =================*/
   #first_project {
     background-repeat: no-repeat;
     aspect-ratio: 16/9;
@@ -51,6 +129,7 @@ h1 {
     padding-left: 2rem;
   }
 
+  /*=========== second section =================*/
   #second_project {
     padding-top: 5%;
   }
@@ -68,11 +147,13 @@ h1 {
   }
 
   .headline1 {
-    /* grid-column: 1;
-    grid-row: 1/2; */
-    place-content: end center;
+    grid-column: 1;
+    grid-row: 1;
     border: 2px solid black;
     height: 10%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
   }
 
   .img2 {
@@ -80,16 +161,14 @@ h1 {
     grid-row: 1;
   }
 
-  .test {
-    display: grid;
-    /* grid-column: 2;
-    grid-row: 1/2; */
-    /* border: 2px solid black;
-    height: 10%; */
-  }
-
-  .test h3 {
-    place-content: end center;
+  .headline2 {
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px solid black;
+    height: 10%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
   }
 
   .img3 {
@@ -99,9 +178,12 @@ h1 {
 
   .headline3 {
     grid-column: 1;
-    grid-row: 2/3;
+    grid-row: 2;
     border: 2px solid black;
     height: 10%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
   }
 
   .img4 {
@@ -111,8 +193,11 @@ h1 {
 
   .headline4 {
     grid-column: 2;
-    grid-row: 2/3;
+    grid-row: 2;
     border: 2px solid black;
     height: 10%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: hsl(305, 50%, 25%, 0.6);
   }
 }
