@@ -26,7 +26,7 @@ h1 {
 
   /*=========== second section =================*/
   #second_project {
-    padding-top: 5%;
+    padding: 10px;
   }
 
   .headline1 {
@@ -76,16 +76,9 @@ h1 {
     grid-auto-rows: 1fr auto auto 1fr 1fr;
   }
 
-  h1 {
-    font-size: 8rem;
-    grid-column: 1;
-    grid-row: 4;
-    padding-left: 2rem;
-  }
-
   /*=========== second section =================*/
   #second_project {
-    padding-top: 5%;
+    padding: 10px;
   }
 
   .section_wrapper {
