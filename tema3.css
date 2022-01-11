@@ -15,22 +15,6 @@ body {
   aspect-ratio: 16/9;
 }
 
-/* #second_tema3 {
-  padding-top: 20px;
-}
-
-#third_tema3 {
-  padding-top: 20px;
-}
-
-#fourth_tema3 {
-  padding-top: 20px;
-}
-
-#fifth_tema3 {
-  padding-top: 20px;
-} */
-
 /*=========== mobile version =============*/
 @media (max-width: 600px) {
   /*=========== second section =================*/
@@ -69,13 +53,6 @@ body {
 
 /*=========== desktiop version =============*/
 @media (min-width: 600px) {
-  /*=========== first section =================*/
-  #first_tema3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto 1fr 1fr 1fr;
-  }
-
   /*=========== second section =================*/
   #second_tema3 .section_wrapper {
     display: grid;
@@ -116,22 +93,11 @@ body {
   /*=========== third section =================*/
   #third_tema3 .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 30px;
-  }
-
-  #third_tema3 .col_narrow {
-    padding-left: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
   #third_tema3 .col_wide {
-    padding-right: 10px;
-  }
-
-  #fifth_tema2 .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    grid-column: 2;
   }
 
   /*=========== fourth section =================*/
