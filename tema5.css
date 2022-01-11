@@ -1,0 +1,180 @@
+/*=========== common =============*/
+.banner {
+  background-color: black;
+}
+
+body {
+  background-color: hsl(180, 25%, 25%, 0.6);
+}
+
+#first_tema5 {
+  background-image: url(ux2.webp);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  aspect-ratio: 16/9;
+}
+
+/*=========== mobile version =============*/
+@media (max-width: 600px) {
+  /*=========== second section =================*/
+  #second_tema5 {
+    padding-top: 4%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #second_tema5 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .col1 {
+    grid-column: 1/4;
+  }
+
+  .web_knap {
+    grid-column: 2;
+    grid-row: 2;
+    background: #ffffff;
+    box-shadow: 0 3px 6px #d9d9d9;
+    border: none;
+    color: black;
+    font-family: "calli";
+    padding: 15px 30px;
+    width: 30vw;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+}
+
+/*=========== desktiop version =============*/
+@media (min-width: 600px) {
+  /*=========== second section =================*/
+
+  #second_tema5 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #second_tema5 h2 {
+    grid-column: 3;
+  }
+
+  .col1 {
+    grid-column: 2/5;
+    grid-row: 2;
+  }
+
+  .web_knap {
+    grid-column: 3;
+    grid-row: 3;
+    background: #ffffff;
+    box-shadow: 0 3px 6px #d9d9d9;
+    border: none;
+    color: black;
+    font-family: "calli";
+    padding: 15px 30px;
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .web_knap a:hover {
+    background-color: #ebeaea;
+  }
+
+  /*=========== third section =================*/
+  #third_tema5 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  #third_tema5 .col_wide {
+    grid-column: 2;
+  }
+
+  /*=========== fourth section =================*/
+  #fourth_tema5 .section_wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+  }
+  #fourth_tema5 .col1 {
+    background-color: var(--color8);
+    margin: var(--space-xl) 0 var(--space-xl) var(--space-xl);
+    padding: var(--space-md);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  /*=========== fifth section =================*/
+  #fifth_tema5 .section_wrapper {
+    display: grid;
+  }
+
+  #fifth_tema5 .col_wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  /*=========== sixth section =================*/
+  #sixth_tema5 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #sixth_tema5 .col_narrow {
+    grid-column: 1/6;
+    grid-row: 2;
+  }
+
+  #sixth_tema5 .web_knap {
+    grid-column: 3;
+    grid-row: 3;
+    background: #ffffff;
+    box-shadow: 0 3px 6px #d9d9d9;
+    border: none;
+    color: black;
+    font-family: "calli";
+    padding: 15px 30px;
+    width: 20vw;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .web_knap a:hover {
+    background-color: #ebeaea;
+  }
+
+  /*=========== seventh section =================*/
+  #seventh_tema5 {
+    padding-top: 2%;
+  }
+
+  #seventh_tema5 .col_wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  #seventh_tema5 p {
+    text-align: center;
+  }
+}
