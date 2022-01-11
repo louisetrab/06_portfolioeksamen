@@ -7,11 +7,6 @@ h1 {
   color: white;
 }
 
-.img1 h3 {
-  border: 3px solid black;
-  border-radius: 7px;
-}
-
 #first_project {
   width: 100%;
   height: 100vh;
@@ -19,6 +14,7 @@ h1 {
   background-size: cover;
 }
 
+/*=========== mobile version =================*/
 @media (max-width: 600px) {
   /*=========== first section =================*/
   #first_project {
@@ -28,83 +24,41 @@ h1 {
     background-position: 25%;
   }
 
-  h1 {
-    grid-column: 1;
-    grid-row: 4;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    font-size: 6rem;
-  }
-
   /*=========== second section =================*/
   #second_project {
     padding-top: 5%;
   }
 
-  .section_wrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 2%;
-  }
-
-  .img1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
   .headline1 {
-    grid-column: 1;
-    grid-row: 1;
     border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
-  }
-
-  .img2 {
-    grid-column: 1;
-    grid-row: 2;
+    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline2 {
-    grid-column: 1;
-    grid-row: 2;
     border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
-  }
-
-  .img3 {
-    grid-column: 1;
-    grid-row: 3;
+    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline3 {
-    grid-column: 1;
-    grid-row: 3;
     border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
-  }
-
-  .img4 {
-    grid-column: 1;
-    grid-row: 4;
+    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline4 {
-    grid-column: 1;
-    grid-row: 4;
     border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
+    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .footer_bestilling {
@@ -142,62 +96,70 @@ h1 {
   }
 
   .img1 {
-    grid-column: 1;
-    grid-row: 1;
+    position: relative;
+    text-align: center;
   }
 
   .headline1 {
-    grid-column: 1;
-    grid-row: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid black;
-    height: 10%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
+    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img2 {
-    grid-column: 2;
-    grid-row: 1;
+    position: relative;
+    text-align: center;
   }
 
   .headline2 {
-    grid-column: 2;
-    grid-row: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid black;
-    height: 10%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
+    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img3 {
-    grid-column: 1;
-    grid-row: 2;
+    position: relative;
+    text-align: center;
   }
 
   .headline3 {
-    grid-column: 1;
-    grid-row: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid black;
-    height: 10%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
+    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img4 {
-    grid-column: 2;
-    grid-row: 2;
+    position: relative;
+    text-align: center;
   }
 
   .headline4 {
-    grid-column: 2;
-    grid-row: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 2px solid black;
-    height: 10%;
-    font-size: 2rem;
+    width: 100%;
+    font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(305, 50%, 25%, 0.6);
+    background-color: hsl(0, 0%, 100%, 0.6);
   }
 }
