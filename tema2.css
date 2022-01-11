@@ -135,23 +135,21 @@
   /*=========== third section =================*/
   #third_tema2 .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
-  #third_tema2 .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  #third_tema2 .col_wide {
+    grid-column: 2;
   }
 
   /*=========== fourth section =================*/
   #fourth_tema2 .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
   }
+
   #fourth_tema2 .col {
     display: flex;
     flex-direction: column;
@@ -164,8 +162,20 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-
   #fifth_tema2 .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /*=========== sixth section =================*/
+  #sixth_tema2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  #sixth_tema2 .col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
