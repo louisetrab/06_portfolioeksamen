@@ -1,7 +1,17 @@
 /*=========== common =============*/
 
 a {
-  color: black;
+  color: #f4bd9e;
+}
+
+main {
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+}
+
+p {
+  font-family: "Poiret One", cursive;
+  color: #f4bd9e;
+  font-size: 1rem;
 }
 
 /*=========== first section =============*/
@@ -10,30 +20,51 @@ a {
   background-size: cover;
   background-position: 40%;
   background-image: url(splash_flower.webp);
-  /* aspect-ratio: 16/9; */
 }
 
 /*=========== second_section =============*/
 
 #second_section .section_wrapper {
-  background-color: white;
-  border: 2px solid black;
+  background-color: hsl(291, 43%, 29%, 0.6);
+  border: 2px solid #f4bd9e;
 }
 
-/* #second_section .section_wrapper p { } */
+#second_section a {
+  font-family: "Limelight", cursive;
+}
+
+#second_section img {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
 
 /*=========== third section =================*/
 
 #third_section .section_wrapper {
-  background-color: white;
-  border: 2px solid black;
+  background-color: hsl(291, 43%, 29%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+#third_section a {
+  font-family: "Limelight", cursive;
+}
+
+#third_section img {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
 /*=========== fourth section =================*/
 
 #fourth_section .section_wrapper {
-  background-color: white;
-  border: 2px solid black;
+  background-color: hsl(291, 43%, 29%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+#fourth_section a {
+  font-family: "Limelight", cursive;
+}
+
+#fourth_section img {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 /*=========== fifth section =================*/
@@ -42,8 +73,16 @@ a {
 }
 
 #fifth_section .section_wrapper {
-  background-color: white;
-  border: 2px solid black;
+  background-color: hsl(291, 43%, 29%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+#fifth_section a {
+  font-family: "Limelight", cursive;
+}
+
+#fifth_section img {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
 }
 
 /*=========== mobile version =============*/
@@ -124,14 +163,11 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
-    padding: 0 10px 0 10px;
   }
   #second_section img {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 /3;
-    /* width: 70%; */
-    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
   }
 
   #second_section .section_wrapper p {
@@ -152,8 +188,7 @@ a {
   #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
-    padding: 0 10px 0 10px;
+    grid-template-rows: 1fr 1fr;
     gap: 4%;
   }
 
@@ -161,8 +196,6 @@ a {
     display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    /* width: 100%; */
-    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
   }
 
   #third_section .section_wrapper p {
@@ -184,14 +217,11 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr;
-    padding: 0 10px 0 10px;
   }
   #fourth_section img {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 1 /3;
-    /* width: 70%; */
-    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
   }
 
   #fourth_section .section_wrapper p {
@@ -203,6 +233,7 @@ a {
   /*=========== fifth section =================*/
   #fifth_section {
     padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   #fifth_section a {
@@ -213,15 +244,12 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
-    padding: 0 10px 0 10px;
     gap: 4%;
   }
   #fifth_section img {
     display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    /* width: 70%; */
-    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
   }
 
   #fifth_section .section_wrapper p {

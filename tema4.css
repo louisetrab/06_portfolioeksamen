@@ -1,10 +1,10 @@
 /*=========== common =============*/
 .banner {
-  background-color: black;
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
 }
 
-body {
-  background-color: hsl(180, 25%, 25%, 0.6);
+main {
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
 }
 
 #first_tema4 {
@@ -14,8 +14,22 @@ body {
 }
 
 #second_tema4 h2 {
-  color: white;
+  color: #260f34;
   font-family: calli;
+}
+
+h3 {
+  color: #260f34;
+  font-family: "Amarante", cursive;
+}
+
+p {
+  color: #602a69;
+  font-family: "Poiret One", cursive;
+}
+
+.web_knap {
+  font-family: "Amarante", cursive;
 }
 
 /*=========== mobile version =============*/
@@ -48,8 +62,6 @@ body {
     background: #ffffff;
     box-shadow: 0 3px 6px #d9d9d9;
     border: none;
-    color: black;
-    font-family: "calli";
     padding: 15px 30px;
     width: 30vw;
     height: 60px;
@@ -57,11 +69,6 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-  }
-
-  /*=========== third section =============*/
-  #third_tema4 {
-    padding: 10px;
   }
 
   /*=========== fourth section =============*/
@@ -110,8 +117,6 @@ body {
     background: #ffffff;
     box-shadow: 0 3px 6px #d9d9d9;
     border: none;
-    color: black;
-    font-family: "calli";
     padding: 15px 30px;
     width: 20vw;
     height: 50px;
@@ -125,23 +130,9 @@ body {
     background-color: #ebeaea;
   }
 
-  /*=========== third section =================*/
-  #third_tema4 {
-    padding-top: 20px;
-  }
-
-  #third_tema4 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-
-  #third_tema4 .col_wide {
-    grid-column: 2;
-  }
-
   /*=========== fourth section =================*/
   #fourth_tema4 {
-    padding-top: 20px;
+    padding: 10px;
   }
 
   #fourth_tema4 .section_wrapper {
@@ -155,18 +146,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  /* .element_1 {
-    order: 1;
-  }
-  .element_2 {
-    order: 2;
-  }
-  .element_3 {
-    order: 3;
-  }
-  .element_4 {
-    order: 4;
-  } */
+
   #fourth_tema4 .col_narrow {
     display: grid;
     grid-template-columns: 1fr;

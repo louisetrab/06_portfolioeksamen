@@ -1,10 +1,10 @@
 /*=========== common =============*/
 .banner {
-  background-color: black;
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
 }
 
-body {
-  background-color: hsl(180, 25%, 25%, 0.6);
+main {
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
 }
 
 #first_tema2 {
@@ -14,8 +14,22 @@ body {
 }
 
 #second_tema2 h2 {
-  color: white;
+  color: #260f34;
   font-family: calli;
+}
+
+h2 {
+  color: #260f34;
+  font-family: "Amarante", cursive;
+}
+
+p {
+  color: #602a69;
+  font-family: "Poiret One", cursive;
+}
+
+.web_knap {
+  font-family: "Amarante", cursive;
 }
 
 /*=========== mobile version =============*/
@@ -47,8 +61,6 @@ body {
     background: #ffffff;
     box-shadow: 0 3px 6px #d9d9d9;
     border: none;
-    color: black;
-    font-family: "calli";
     padding: 15px 30px;
     width: 30vw;
     height: 60px;
@@ -56,11 +68,6 @@ body {
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-  }
-
-  /*=========== third section =================*/
-  #third_tema2 {
-    padding: 10px;
   }
 
   /*=========== third section =================*/
@@ -114,8 +121,6 @@ body {
     background: #ffffff;
     box-shadow: 0 3px 6px #d9d9d9;
     border: none;
-    color: black;
-    font-family: "calli";
     padding: 15px 30px;
     width: 20vw;
     height: 50px;
@@ -127,16 +132,6 @@ body {
 
   .web_knap a:hover {
     background-color: #ebeaea;
-  }
-
-  /*=========== third section =================*/
-  #third_tema2 .section_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-  }
-
-  #third_tema2 .col_wide {
-    grid-column: 2;
   }
 
   /*=========== fourth section =================*/

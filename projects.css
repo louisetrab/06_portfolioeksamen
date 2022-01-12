@@ -1,10 +1,35 @@
 /*=========== common =================*/
 .banner {
-  background-color: #61205c;
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
 }
 
-h1 {
-  color: white;
+main {
+  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+}
+
+#second_project {
+  font-family: "Limelight", cursive;
+  padding-bottom: 10px;
+}
+
+.headline1 {
+  background-color: hsl(0, 0%, 100%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+.headline2 {
+  background-color: hsl(0, 0%, 100%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+.headline3 {
+  background-color: hsl(0, 0%, 100%, 0.6);
+  border: 2px solid #f4bd9e;
+}
+
+.headline4 {
+  background-color: hsl(0, 0%, 100%, 0.6);
+  border: 2px solid #f4bd9e;
 }
 
 #first_project {
@@ -30,35 +55,27 @@ h1 {
   }
 
   .headline1 {
-    border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline2 {
-    border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline3 {
-    border: 2px solid black;
     height: 15%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
-    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .headline4 {
-    border: 2px solid black;
     height: 15%;
     font-size: 1.8rem;
     text-align: center;
-    background-color: hsl(180, 25%, 25%, 0.6);
   }
 
   .footer_bestilling {
@@ -102,7 +119,6 @@ h1 {
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img2 {
@@ -119,7 +135,6 @@ h1 {
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img3 {
@@ -136,7 +151,6 @@ h1 {
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(0, 0%, 100%, 0.6);
   }
 
   .img4 {
@@ -153,6 +167,5 @@ h1 {
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
-    background-color: hsl(0, 0%, 100%, 0.6);
   }
 }
