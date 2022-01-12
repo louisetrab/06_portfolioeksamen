@@ -1,10 +1,10 @@
 /*=========== common =============*/
 .banner {
-  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 main {
-  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 #first_tema3 {
@@ -14,17 +14,17 @@ main {
 }
 
 #second_tema3 h2 {
-  color: #260f34;
+  color: #f4bd9e;
   font-family: calli;
 }
 
 h3 {
-  color: #260f34;
+  color: antiquewhite;
   font-family: "Amarante", cursive;
 }
 
 p {
-  color: #602a69;
+  color: white;
   font-family: "Poiret One", cursive;
 }
 

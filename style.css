@@ -43,7 +43,7 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 20px;
   padding-top: 20px;
-  background-color: #c16893;
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 .footer_bestilling {

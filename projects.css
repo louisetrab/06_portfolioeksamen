@@ -1,10 +1,10 @@
 /*=========== common =================*/
 .banner {
-  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 main {
-  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 #second_project {
@@ -13,23 +13,27 @@ main {
 }
 
 .headline1 {
-  background-color: hsl(0, 0%, 100%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.8);
   border: 2px solid #f4bd9e;
 }
 
 .headline2 {
-  background-color: hsl(0, 0%, 100%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.8);
   border: 2px solid #f4bd9e;
 }
 
 .headline3 {
-  background-color: hsl(0, 0%, 100%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.8);
   border: 2px solid #f4bd9e;
 }
 
 .headline4 {
-  background-color: hsl(0, 0%, 100%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.8);
   border: 2px solid #f4bd9e;
+}
+
+main a {
+  color: #f4bd9e;
 }
 
 #first_project {
@@ -131,7 +135,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
@@ -147,7 +150,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
@@ -163,7 +165,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
@@ -179,7 +180,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
     width: 100%;
     font-size: 2.5rem;
     text-align: center;

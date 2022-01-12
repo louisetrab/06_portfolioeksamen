@@ -5,7 +5,7 @@ a {
 }
 
 main {
-  background-image: linear-gradient(to bottom right, #36afc3, #f0c82e, #c40da0);
+  background-image: linear-gradient(to bottom left, #444444, #141718, #282c2d);
 }
 
 p {
@@ -25,7 +25,7 @@ p {
 /*=========== second_section =============*/
 
 #second_section .section_wrapper {
-  background-color: hsl(291, 43%, 29%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.4);
   border: 2px solid #f4bd9e;
 }
 
@@ -36,7 +36,7 @@ p {
 /*=========== third section =================*/
 
 #third_section .section_wrapper {
-  background-color: hsl(291, 43%, 29%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.4);
   border: 2px solid #f4bd9e;
 }
 
@@ -47,7 +47,7 @@ p {
 /*=========== fourth section =================*/
 
 #fourth_section .section_wrapper {
-  background-color: hsl(291, 43%, 29%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.4);
   border: 2px solid #f4bd9e;
 }
 
@@ -61,7 +61,7 @@ p {
 }
 
 #fifth_section .section_wrapper {
-  background-color: hsl(291, 43%, 29%, 0.6);
+  background-color: hsl(307, 24%, 46%, 0.4);
   border: 2px solid #f4bd9e;
 }
 
