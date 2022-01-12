@@ -184,4 +184,12 @@ p {
     flex-direction: column;
     justify-content: space-between;
   }
+
+  /*=========== eigth section =================*/
+
+  #eigth_tema2 .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
